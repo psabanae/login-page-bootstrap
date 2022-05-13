@@ -69,7 +69,3 @@ label {
 .btn:last-child:hover {
   background-color: #C03A33;
 }
-
-.alert {
-  display:none;
-}
