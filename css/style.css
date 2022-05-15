@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700&family=Space+Mono:wght@400;700&display=swap');
 
 *,
 *::before,
@@ -9,11 +9,11 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #555A5F;
+  font-family: 'Space Mono', sans-serif;
+  background-color: #F8EEE7;
 }
 
-a {
+.login-link {
   text-decoration: none;
   font-weight: 700;
   color:#323436;
@@ -24,7 +24,7 @@ label {
   font-weight: 700;
 }
 
-.container-fluid {
+.login-container {
   padding-top: 10em;
 }
 
@@ -43,29 +43,29 @@ label {
 }
 
 .form-field:focus{
-  border-color: #C5323A;
+  border-color: #49274A;
   background-color: transparent;
 
 }
 
-.btn {
+.login-button {
   border-radius: 16px;
 }
 
-.btn:first-child {
+.confirm-button {
   background-color: #4369b4;
   color: #FAFAFA; 
 }
 
-.btn:last-child {
+.cancel-button {
   background-color: #d35650;
   color: #FAFAFA;
 }
 
-.btn:first-child:hover {
+.confirm-button:hover {
   background-color: #224EA5;
 }
 
-.btn:last-child:hover {
+.cancel-button:hover {
   background-color: #C03A33;
 }
